@@ -6,11 +6,11 @@ def A():
     for line in sys.stdin:
         command = line.rstrip()
         if command == 'Hi':
-            print("Hi")
+            print("Hi", flush=True)
         elif command == 'GetRandom':
-            print(random.randint(1, 100))
+            print(random.randint(1, 100), flush=True)
         elif command == 'Shutdown':
-            print("ok, shutting down")
+            print("ok, shutting down", flush=True)
             break
     return 0
 

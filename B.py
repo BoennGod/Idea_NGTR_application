@@ -3,10 +3,11 @@ import subprocess
 
 def B():
     process = subprocess.Popen(
-        ["python", "A.py"],
+        ["python3", "A.py"],
         stdin=subprocess.PIPE,
         stdout=subprocess.PIPE,
-        text=True
+        universal_newlines=True,
+        bufsize = 1
     )
 
     def send_command(command):
