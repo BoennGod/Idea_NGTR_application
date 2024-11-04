@@ -8,4 +8,4 @@ To compile, run and test:
 2. run B.py using pycharm or with a command "python3 B.py"
 
 
-the program should print what A responded to Hi, then sorted list, median and average
+the program should print what A responded to Hi, then sorted list, median and average in new lines
